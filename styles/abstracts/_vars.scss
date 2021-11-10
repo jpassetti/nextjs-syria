@@ -1,0 +1,17 @@
+// Typography
+$baseTextSize: 1.1rem;
+$textSizeIncrement: 1.4;
+
+$color__red: #e31c3d;
+$color__black: #000000;
+
+$font_primary: 'Open Sans', sans-serif;
+$font_secondary: 'Merriweather', Georgia, serif;
+
+$text-4 : $baseTextSize;
+$text-5 : $baseTextSize * 0.95;
+$text-6 : $text-5 * 0.95;
+
+$text-3 : $text-4 * $textSizeIncrement;
+$text-2 : $text-3 * $textSizeIncrement;
+$text-1 : $text-2 * $textSizeIncrement;

@@ -1,0 +1,30 @@
+@use '../styles/abstracts/vars';
+@use '../styles/abstracts/mixins';
+
+.paragraph {
+	font-size: vars.$baseTextSize;
+	line-height: 1.5;
+	color: black;
+	margin-bottom: 1rem;
+	max-width: 100%;
+	@include mixins.breakpoint(sm) {
+		max-width: 48em;
+	}
+	&.intro {
+		font-size: vars.$baseTextSize * 1.4;
+		font-family: vars.$font_secondary;
+		margin-bottom: 2rem;
+		margin-top: 2rem;
+		@include mixins.breakpoint(sm) {
+			max-width: 32em;
+		}
+		&:after {
+			content:'';
+			display: block;
+			width: 5rem;
+			height: .25rem;
+			background-color: vars.$color__red;
+			margin-top: 2rem;
+		}
+	}
+}

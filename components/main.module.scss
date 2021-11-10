@@ -1,0 +1,15 @@
+@import '../styles/abstracts/mixins';
+
+.main_content {
+	padding: 2rem;
+	@include breakpoint(sm) {
+		padding: 2.5em;
+	}
+	@include breakpoint(md) {
+		padding: 3em;
+	}
+	@include breakpoint(lg) {
+		padding: 4em;
+	}
+	
+}

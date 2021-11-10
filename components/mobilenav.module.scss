@@ -1,0 +1,38 @@
+@use '../styles/abstracts/vars';
+@use '../styles/abstracts/mixins';
+
+.nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	background-color: black;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	@include mixins.breakpoint(sm) {
+		margin-top: 2rem;
+	}
+}
+.navLink {
+	font-size: 1.2rem;
+	font-weight: 700;
+	color: white;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	display: block;
+	text-decoration: none;
+	&:hover, &:focus {
+		color: #888;
+	}
+	@include mixins.breakpoint(sm) {
+		color: black;
+	}
+}
+.navLinkActive {
+	color: vars.$color__red;
+}

@@ -1,0 +1,42 @@
+@import '../styles/abstracts/vars';
+
+
+.heading {
+	font-weight: 700;
+	margin-bottom: 1rem;
+	&.h1 {
+		font-size: $text-1;
+	}
+	&.h2 {
+		font-size: $text-2;
+	}
+	&.h3 {
+		font-size: $text-3;
+	}
+	&.h4 {
+		font-size: $text-5;
+		font-weight: 400;
+	}
+	&.h5 {
+		font-size: $text-5;
+		text-transform: uppercase;
+		color: $color__red;
+		a {
+			text-decoration: none;
+			color: red;
+			&:hover, &:focus {
+				text-decoration: underline;
+			}
+		}
+	}
+	&.h6 {
+		font-size: $text-6;
+	}
+	&.category {
+		text-transform: uppercase;
+		font-weight: 700;
+		color: $color__red;
+		
+	}
+
+}

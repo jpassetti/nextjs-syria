@@ -1,0 +1,19 @@
+@use '../styles/abstracts/mixins';
+
+.header {
+	padding: 2rem;
+	&.sticky {
+		position: sticky;
+	}
+}
+.logo {
+	width: 5rem;
+	height: auto;
+	@include mixins.breakpoint(sm) {
+		width: 7rem;
+	}
+	@include mixins.breakpoint(md) {
+		width: 9rem;
+	}
+}
+
