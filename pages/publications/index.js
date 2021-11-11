@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Image from "next/image"
 import Heading from '../../components/heading'
 import Layout from '../../components/layout'

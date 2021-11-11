@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Layout from '../components/layout';
 import Row from '../components/row'
 import Col from '../components/col';
