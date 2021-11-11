@@ -56,7 +56,7 @@ const Reports = () => {
 				<meta property="og:title" content="Publications | Syrian Accountability Project" key="title" />
 			</Head>
 			<Heading rank="1">Publications</Heading>
-			<Paragraph type="intro">The Syrian Accountability Project publishes issue-specific white papers for clients including the Syrian National Council, United Nations, U.S. Department of State, and the International Criminal Court.</Paragraph>
+			<Paragraph intro>The Syrian Accountability Project publishes issue-specific white papers for clients including the Syrian National Council, United Nations, U.S. Department of State, and the International Criminal Court. Issues range from conflict studies, genocide, slavery, or famine and include comprehensive analysis of key issues related to justice, accountability, and human rights. SAP collaborates with writers and editors across the globe to produce these timely publications.</Paragraph>
 			<Row>
 				{reportsArr.map((report, index) => {
 					const { title, subtitle, image, slug, file } = report;

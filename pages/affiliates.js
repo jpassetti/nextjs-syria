@@ -44,7 +44,7 @@ const Contact = () => {
 				<meta property="og:title" content="Affiliates | Syrian Accountability Project" key="title" />
 			</Head>
 			<Heading rank="1">Affiliates</Heading>
-			<Paragraph type="intro">The Syrian Accountability Project is a cooperative effort between legal scholars, non-governmental organizations, students, and other interested parties. </Paragraph>
+			<Paragraph intro>The Syrian Accountability Project is a cooperative effort between legal scholars, non-governmental organizations, students, and other interested parties. </Paragraph>
 			<Row>
 			{
 				affiliates.map((affiliate, index) => {

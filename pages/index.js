@@ -21,9 +21,9 @@ const IndexPage = () => {
 			  <meta name="description" content="The Syrian Accountability Project (SAP) is an internationally recognized cooperative effort between activists, non-governmental organizations, students, and other interested parties to document war crimes and crimes against humanity in the context of the Syrian Crisis." key="description" />
 		  </Head>
 		<section>
-			  <Paragraph type="intro">The <strong>Syrian Accountability Project</strong> (SAP) is an internationally recognized cooperative effort between activists, non-governmental organizations, students, and other interested parties to document war crimes and crimes against humanity in the context of the Syrian Crisis.</Paragraph>
+			  <Paragraph intro>The <strong>Syrian Accountability Project</strong> (SAP) is an internationally recognized cooperative effort between activists, non-governmental organizations, students, and other interested parties to document war crimes and crimes against humanity in the context of the Syrian Crisis.</Paragraph>
 			  <Paragraph>The project aims to produce non-partisan, high quality analysis of open source materials and to catalogue that information relative to applicable bodies of law; including, the Geneva Conventions, the Rome Statute of the International Criminal Court, and Syrian Penal Law.</Paragraph>
-			  <Paragraph>The SAP primarily creates documentation products in a narrative and graphical format, as well as a quarterly and annual trend analysis of ongoing crimes. Furthermore, the SAP publishes issue-specific white papers as well as contributed to the newly established <strong>Uyghur Genocide Project</strong>. Its clients include the Syrian National Council, United Nations, U.S. Department of State, and the International Criminal Court.</Paragraph>
+			  <Paragraph>SAP primarily creates documentation products in a narrative and graphical format, as well as a quarterly and annual trend analysis of ongoing crimes. Furthermore, the SAP publishes issue-specific white papers as well as contributed to the newly established <strong>Uyghur Genocide Project</strong>. Its clients include the Syrian National Council, United Nations, U.S. Department of State, and the International Criminal Court.</Paragraph>
 		</section>
 		<section>
 			<Heading mt="4" rank="3">Lastest publication</Heading>
