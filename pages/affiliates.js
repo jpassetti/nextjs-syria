@@ -38,6 +38,10 @@ const affiliates = [
 const Contact = () => {
 	return (
 		<Layout>
+			<Head>
+				<title>Affiliates | Syrian Accountability Project</title>
+				<meta property="og:title" content="Affiliates | Syrian Accountability Project" key="title" />
+			</Head>
 			<Heading rank="1">Affiliates</Heading>
 			<Paragraph type="intro">Suspendisse massa metus, scelerisque quis tempor vel, scelerisque sed lacus. </Paragraph>
 			<Row>

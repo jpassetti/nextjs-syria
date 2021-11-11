@@ -8,6 +8,10 @@ import Category from '../components/category';
 const Contact = () => {
 	return (
 		<Layout>
+			<Head>
+				<title>Contact | Syrian Accountability Project</title>
+				<meta property="og:title" content="Contact | Syrian Accountability Project" key="title" />
+			</Head>
 			<Heading rank="1">Contact</Heading>
 			<Paragraph type="intro">Suspendisse massa metus, scelerisque quis tempor vel, scelerisque sed lacus. </Paragraph>
 			<Paragraph>If you have any questions, please email:</Paragraph>

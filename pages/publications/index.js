@@ -50,6 +50,10 @@ const reportsArr = [
 const Reports = () => {
 	return (
 		<Layout>
+			<Head>
+				<title>Publications | Syrian Accountability Project</title>
+				<meta property="og:title" content="Publications | Syrian Accountability Project" key="title" />
+			</Head>
 			<Heading rank="1">Publications</Heading>
 			<Paragraph type="intro">Suspendisse massa metus, scelerisque quis tempor vel, scelerisque sed lacus. </Paragraph>
 			<Row>

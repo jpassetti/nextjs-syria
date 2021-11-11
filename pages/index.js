@@ -14,7 +14,10 @@ import Paragraph from '../components/paragraph'
 const IndexPage = () => {
   return (
 	 <Layout>
-		<title>Syrian Accountability Project</title>
+		  <Head>
+			  <title>Syrian Accountability Project | Syracuse University</title>
+			  <meta property="og:title" content="Syrian Accountability Project | Syracuse University" key="title" />
+		  </Head>
 		<section>
 			  <Paragraph type="intro">The <strong>Syrian Accountability Project</strong> (SAP) is an internationally recognized cooperative effort between activists, non-governmental organizations, students, and other interested parties to document war crimes and crimes against humanity in the context of the Syrian Crisis.</Paragraph>
 			  <Paragraph>The project aims to produce non-partisan, high quality analysis of open source materials and to catalogue that information relative to applicable bodies of law; including, the Geneva Conventions, the Rome Statute of the International Criminal Court, and Syrian Penal Law.</Paragraph>
