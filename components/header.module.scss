@@ -16,4 +16,13 @@
 		width: 9rem;
 	}
 }
+.mobile_header {
+	background-color: black;
+	color: white;
+	padding: 1rem;
+	width: 100%;
+	@include mixins.breakpoint(sm) {
+		display: none;
+	}
+}
 

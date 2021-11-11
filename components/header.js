@@ -23,7 +23,12 @@ const Header = ({position}) => {
 	});
 
 
-	return (
+	return <>
+		<div className={styles.mobile_header}>
+			<Button id="menuBtn" clickHandler={() => { setMenuVisible(true) }}>
+				<Icon.Menu color="white" />
+			</Button>
+		</div>
 		<header className={headerClasses}>
 			<Link href="/">
 				<Image
@@ -34,12 +39,10 @@ const Header = ({position}) => {
 					height={266}
 				/>
 			</Link>
-			<Button id="menuBtn" clickHandler={() => {setMenuVisible(true)}}>
-				<Icon.Menu />
-			</Button>
+			
 			{isMenuVisible && <MobileNav closeHandler={() => {setMenuVisible(false)}} />}
 			<DesktopNav />
 		</header>
-	)
+	</>
 }
 export default Header;
