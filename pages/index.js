@@ -18,6 +18,7 @@ const IndexPage = () => {
 		  <Head>
 			  <title>Syrian Accountability Project | Syracuse University</title>
 			  <meta property="og:title" content="Syrian Accountability Project | Syracuse University" key="title" />
+			  <meta name="description" content="The Syrian Accountability Project (SAP) is an internationally recognized cooperative effort between activists, non-governmental organizations, students, and other interested parties to document war crimes and crimes against humanity in the context of the Syrian Crisis." key="description" />
 		  </Head>
 		<section>
 			  <Paragraph type="intro">The <strong>Syrian Accountability Project</strong> (SAP) is an internationally recognized cooperative effort between activists, non-governmental organizations, students, and other interested parties to document war crimes and crimes against humanity in the context of the Syrian Crisis.</Paragraph>

@@ -12,27 +12,27 @@ const affiliates = [
 	},
 	{
 		name: "University of Toronto",
-		url: "https://www.utoronto.ca/"
+		url: "https://www.utoronto.ca"
 	},
 	{
 		name: "Florida International University",
-		url: "https://www.fiu.edu/"
+		url: "https://www.fiu.edu"
 	},
 	{
 		name: "Suffolk University",
-		url: "https://www.suffolk.edu/"
+		url: "https://www.suffolk.edu"
 	},
 	{
 		name: "University of Michigan",
-		url: "https://umich.edu/"
+		url: "https://umich.edu"
 	},
 	{
 		name: "Washington University- St. Louis",
-		url: "https://wustl.edu/"
+		url: "https://wustl.edu"
 	},
 	{
 		name: "Case Western Reserve University",
-		url: "https://case.edu/"
+		url: "https://case.edu"
 	},
 ];
 
@@ -44,7 +44,7 @@ const Contact = () => {
 				<meta property="og:title" content="Affiliates | Syrian Accountability Project" key="title" />
 			</Head>
 			<Heading rank="1">Affiliates</Heading>
-			<Paragraph type="intro">Suspendisse massa metus, scelerisque quis tempor vel, scelerisque sed lacus. </Paragraph>
+			<Paragraph type="intro">The Syrian Accountability Project is a cooperative effort between legal scholars, non-governmental organizations, students, and other interested parties. </Paragraph>
 			<Row>
 			{
 				affiliates.map((affiliate, index) => {

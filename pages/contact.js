@@ -14,8 +14,7 @@ const Contact = () => {
 				<meta property="og:title" content="Contact | Syrian Accountability Project" key="title" />
 			</Head>
 			<Heading rank="1">Contact</Heading>
-			<Paragraph type="intro">Suspendisse massa metus, scelerisque quis tempor vel, scelerisque sed lacus. </Paragraph>
-			<Paragraph>If you have any questions, please email:</Paragraph>
+			<Paragraph type="intro">If you have any questions or inquiries, please contact us.</Paragraph>
 			<Row>
 				<Col sm="6">
 					<Row>

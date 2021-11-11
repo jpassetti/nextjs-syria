@@ -56,7 +56,7 @@ const Reports = () => {
 				<meta property="og:title" content="Publications | Syrian Accountability Project" key="title" />
 			</Head>
 			<Heading rank="1">Publications</Heading>
-			<Paragraph type="intro">Suspendisse massa metus, scelerisque quis tempor vel, scelerisque sed lacus. </Paragraph>
+			<Paragraph type="intro">The Syrian Accountability Project publishes issue-specific white papers for clients including the Syrian National Council, United Nations, U.S. Department of State, and the International Criminal Court.</Paragraph>
 			<Row>
 				{reportsArr.map((report, index) => {
 					const { title, subtitle, image, slug, file } = report;
