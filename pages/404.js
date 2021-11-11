@@ -1,5 +1,7 @@
 import Link from "next/link"
 
+import Layout from '../components/layout'
+
 // styles
 const pageStyles = {
   color: "#232129",
@@ -26,6 +28,7 @@ const codeStyles = {
 // markup
 const NotFoundPage = () => {
   return (
+	  <Layout>
     <main style={pageStyles}>
       <title>Not found</title>
       <h1 style={headingStyles}>Page not found</h1>
@@ -44,9 +47,10 @@ const NotFoundPage = () => {
           </>
         ) : null}
         <br />
-        <Link to="/">Go home</Link>.
+        <Link href="/">Go home</Link>.
       </p>
     </main>
+	  </Layout>
   )
 }
 
