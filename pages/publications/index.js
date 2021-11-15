@@ -9,46 +9,10 @@ import ButtonGroup from '../../components/buttongroup'
 import Button from '../../components/button'
 import Paragraph from '../../components/paragraph'
 
-const reportsArr = [
-	{
-		title: "An Endless Tragedy",
-		subtitle: "A Report on the Incidents Regarding Demonstrations in Gaza March 2018 to December 2018",
-		image: "gaza-crimes.jpg",
-		slug: "an-endless-tragedy",
-		file: "an-endless-tragedy-by-syrian-accountability-project-syracuse-university.pdf"
-	},
-	{
-		title: "Report on the Yazidi Genocide",
-		subtitle: "Mapping Atrocity in Iraq and Syria / 30 Oct 2017",
-		image: "yazidi-genocide.jpg",
-		slug: "yazidi-genocide",
-		file: "report-on-the-yazidi-genocide-syrian-accountability-project-syracuse-university.pdf"
-	},
-	{
-		title: "Idlib Left Breathless",
-		subtitle: "The Chemical Attack in Khan Sheikhoun / 4 April 2017",
-		image: "idlib-left-breathless-by-jeff-passetti.jpg",
-		slug: "idlib-left-breathless",
-		file: "idlib-left-breathless-white-paper-by-syrian-accountability-project-syacuse-university.pdf"
-	},
-	{
-		title: "Covered in dust, veiled by shadow",
-		subtitle: "The Siege And Destruction Of Aleppo",
-		image: "covered-in-dust-veiled-by-shadow-by-jeff-passetti.jpg",
-		slug: "covered-in-dust",
-		file: "covered-in-dust-veiled-by-shadow-by-syrian-accountability-project-syacuse-university.pdf"
-	},
-	{
-		title: "Looking through the window darkly",
-		subtitle: "A Snapshot Analysis of Rape in Syria / 2011–2015",
-		image: "05.jpg",
-		slug: "looking-through-the-window-darkly",
-		file: "looking-through-the-window-darkly-a-snapshot-analysis-of-rape-in-syria-by-syrian-accountability-project-syracuse-university.pdf"
-	},
-]
+import { getPublications } from '../../lib/api'
 
-
-const Reports = () => {
+const Publications = () => {
+	const publicationsArr = getPublications()
 	return (
 		<Layout>
 			<Head>
@@ -58,9 +22,9 @@ const Reports = () => {
 			<Heading rank="1">Publications</Heading>
 			<Paragraph intro>The Syrian Accountability Project publishes issue-specific white papers for clients including the Syrian National Council, United Nations, U.S. Department of State, and the International Criminal Court. Issues range from conflict studies, genocide, slavery, or famine and include comprehensive analysis of key issues related to justice, accountability, and human rights. SAP collaborates with writers and editors across the globe to produce these timely publications.</Paragraph>
 			<Row>
-				{reportsArr.map((report, index) => {
-					const { title, subtitle, image, slug, file } = report;
-					return <Col sm="6">
+				{publicationsArr.map((publication, index) => {
+					const { title, subtitle, image, file } = publication;
+					return <Col sm="6" key={index}>
 						<Card>
 							<Image
 								src={`/images/${image}`}
@@ -85,4 +49,4 @@ const Reports = () => {
 		</Layout>
 	)
 }
-export default Reports;
+export default Publications;

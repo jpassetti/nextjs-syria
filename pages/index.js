@@ -10,9 +10,12 @@ import Button from '../components/button'
 import Heading from '../components/heading'
 import Paragraph from '../components/paragraph'
 
+import { getPublications } from '../lib/api'
 
 // markup
 const IndexPage = () => {
+	const publicationsArr = getPublications()
+	const { title, subtitle, image, file } = publicationsArr[0];
   return (
 	 <Layout>
 		  <Head>
@@ -28,26 +31,27 @@ const IndexPage = () => {
 		<section>
 			<Heading mt="4" rank="3">Lastest publication</Heading>
 			<Row>
-				  <Col sm="6">
-					  <Card>
-						  <Image
-							  src="/images/gaza-crimes.jpg"
-							  alt="Gaza Crimes"
-							  width={2244}
-							  height={1372}
-						  />
-						  <Card.content>
-							  <Heading rank="3" content="">An Endless Tragedy</Heading>
-							  <Heading rank="4" content="">A Report on the Incidents Regarding Demonstrations in Gaza March 2018 to December 2018</Heading>
-							  <ButtonGroup>
-								  <Button.download
-									  level="primary"
-									  fileName={`/docs/an-endless-tragedy-by-syrian-accountability-project-syracuse-university.pdf`}
-								  />
-							  </ButtonGroup>
-						  </Card.content>
-					  </Card>
-				  </Col>
+				<Col sm="6">
+						  <Card>
+							  <Image
+								  src={`/images/${image}`}
+								  alt={title}
+								  width={2244}
+								  height={1372}
+							  />
+							  <Card.content>
+								  <Heading rank="3" content="">{title}</Heading>
+								  <Heading rank="4" content="">{subtitle}</Heading>
+								  <ButtonGroup>
+									  <Button.download
+										  level="primary"
+										  fileName={`/docs/${file}`}
+									  />
+								  </ButtonGroup>
+							  </Card.content>
+						  </Card>
+					  </Col>
+				  
 			</Row>
 		</section>
 	</Layout >
