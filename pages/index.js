@@ -29,7 +29,7 @@ const IndexPage = () => {
 			  <Paragraph>SAP primarily creates documentation products in a narrative and graphical format, as well as a quarterly and annual trend analysis of ongoing crimes. Furthermore, the SAP publishes issue-specific white papers as well as contributed to the newly established <strong>Uyghur Genocide Project</strong>. Its clients include the Syrian National Council, United Nations, U.S. Department of State, and the International Criminal Court.</Paragraph>
 		</section>
 		<section>
-			<Heading mt="4" rank="3">Lastestttttt publication</Heading>
+			<Heading mt="4" rank="3">Lastest publication</Heading>
 			<Row>
 				<Col sm="6">
 						  <Card>
