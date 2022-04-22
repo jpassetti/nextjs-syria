@@ -41,7 +41,7 @@ const DesktopNav = () => {
 					const { path, title } = navLink;
 					return <li key={index}>
 						<Link href={path}>
-							<a className={styles.navLink} activeClassName={styles.navLinkActive}>{title}</a>
+							<a className={styles.navLink}>{title}</a>
 						</Link>
 					</li>
 				})}
