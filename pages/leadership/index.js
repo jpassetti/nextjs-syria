@@ -14,7 +14,7 @@ const Team = () => {
 				<title>Leadership | Syrian Accountability Project</title>
 				<meta property="og:title" content="Leadership | Syrian Accountability Project" key="title" />
 			</Head>
-			<Heading rank="1">2021-22 Leadership</Heading>
+			<Heading rank="1">2022-23 Leadership</Heading>
 			<Paragraph intro>The members are comprised from different schools and colleges at Syracuse University.</Paragraph>
 			<Row>
 				<Col sm="9">
