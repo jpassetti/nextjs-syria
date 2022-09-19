@@ -20,8 +20,8 @@ const Contact = () => {
 					<Row>
 						<Col xs="12" sm="12">
 							<Category label="Executive Director" />
-							<Heading rank="3">Christopher Martz</Heading>
-							<Paragraph><a href="mailto:cgmartz@syr.edu">cgmartz@syr.edu</a></Paragraph>
+							<Heading rank="3">Rebecca Buchanan</Heading>
+							<Paragraph><a href="mailto:rmbuchan@syr.edu"> rmbuchan@syr.edu</a></Paragraph>
 							<Paragraph>College of Law</Paragraph>
 						</Col>
 					</Row>
